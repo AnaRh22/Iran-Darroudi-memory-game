@@ -1,0 +1,174 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>MemoryGame</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+<script src="dragdealer.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/arrow-line/dist/arrow-line.min.js"></script>
+<script src="leader-line.min.js"></script>
+<link rel="stylesheet" href="style.css">
+     
+</head>
+<body>
+
+
+
+
+<div id= "introduction">
+ 
+  <h1>Iran Darroudi</h1>
+  <p>
+    Iran Darroudi (2 September 1936 – 29 October 2021) was an Iranian contemporary artist. Her art consists of surreal paintings dealing with Iranian themed imagery and strong lighting. She lived between Tehran and Paris for many years.This project is dedicated to her and her art. 
+    To know more about her please 
+    <a href="https://www.irandarroudi.com/en/page/home-page" target="_blank" >click here.</a>
+    
+  </p>
+  
+</div>
+            
+
+<div id="flex-container">
+
+  
+<div id="canvas-mask" class="dragdealer">
+            
+            <div class="handle" id= "handle"> 
+
+             <!--  <canvas id="myCanvas"   width="1789.9" height="1400" style="position: absolute; top: 0px; left: 0px; "></canvas> -->
+                
+               <!--  background-color: lightgray; border: 5px solid darkblue; -->
+                
+              
+
+              <!-- <svg id="jafar"></svg>  -->
+            <!-- <svg id="jafar" style="position:absolute;top:0px;left:0px;pointer-events: none;" width="1500" height="1500"></svg> -->
+                        
+              <div class="page" id="page1">
+
+                <div id="item_1" class="item" data-framework="thirst_of_desert" >
+                 <img class= "front-face" src="img/thirst_of_desert.jpg" alt= "thirst_of_deserte" >
+                 <img class= "back-face" src="img/logoname.jpg" alt= "logoname">
+                </div>
+
+                <div id="item_2" class="item"  data-framework="border_of_burning">
+                 <img class= "front-face" src="img/border_of_burning.jpg" alt= "border_of_burning">
+                 <img class= "back-face" src="img/logoname.jpg" alt= "logoname">
+                </div>
+
+                  <div id="item_3" class="item" data-framework="Steadfastness">
+                     <img class= "front-face" src="img/Steadfastness.jpg" alt= "Steadfastness">
+                     <img class= "back-face" src="img/logoname.jpg" alt= "logoname">
+                 </div>
+
+                <p class="menu">
+                  <a href="#" data-x="0" data-y="1">(down-left)</a> |
+                  <a href="#" data-x="1" data-y="1">(down-right)</a> |
+                  <a href="#" data-x="1" data-y="0">(up-right)</a> |
+                  <strong>(up-left)</strong>
+                </p>
+                </div>
+
+              <div class="page">
+
+                 <div id="item_4" class="item"  data-framework="growing_in_thus _Way">
+                     <img class= "front-face" src="img/growing_in_thus _Way.jpg" alt= "growing_in_thus _Way">
+                     <img class= "back-face" src="img/logoname.jpg" alt= "logoname">
+                 </div>
+
+                  <div id="item_5" class="item" data-framework="space">
+                     <img class= "front-face" src="img/space.jpg" alt= "space">
+                     <img class= "back-face" src="img/logoname.jpg" alt= "logoname">
+                 </div>
+
+                  <div id="item_6" class="item" data-framework="lamentation_of _water">
+                     <img class= "front-face" src="img/lamentation_of _water.jpg" alt= "lamentatione">
+                     <img class= "back-face" src="img/logoname.jpg" alt= "logoname">
+                 </div>
+
+
+                <div id="item_7" class="item" data-framework="border_of_burning">
+                    <img class= "front-face" src="img/border_of_burning.jpg" alt= "border_of_burning">
+                    <img class= "back-face" src="img/logoname.jpg" alt= "logoname">
+                </div>
+
+
+                <p class="menu">
+                  <a href="#" data-x="0" data-y="1">(down-left</a> |
+                  <a href="#" data-x="1" data-y="1">(down-right)</a> |
+                  <strong>(up-right)</strong> |
+                  <a href="#" data-x="0" data-y="0">(up-left)</a>
+                </p>
+                
+              </div>
+
+
+              <div class="page">
+
+                <div id="item_8" class="item" data-framework="space">
+                    <img class= "front-face" src="img/space.jpg" alt= "space">
+                    <img class= "back-face" src="img/logoname.jpg" alt= "logoname">
+                </div>
+
+                <div id="item_9" class="item" data-framework="our_veins_the earth’s_veinsa">
+                    <img class= "front-face" src="img/our_veins_the earth’s_veins.jpg" alt= "our_veins_the earth’s_veins">
+                    <img class= "back-face" src="img/logoname.jpg" alt= "logoname">
+                </div>
+
+                <div id="item_10" class="item" data-framework="Steadfastness">
+                    <img class= "front-face" src="img/Steadfastness.jpg" alt= "Steadfastness">
+                    <img class= "back-face" src="img/logoname.jpg" alt= "logoname">
+                </div>
+
+                <div id="item_11" class="item" data-framework="our_veins_the earth’s_veinsa">
+                 <img class= "front-face" src="img/our_veins_the earth’s_veins.jpg" alt= "ur_veins_the earth’s_veinse">
+                 <img class= "back-face" src="img/logoname.jpg" alt= "logoname">
+                </div>
+
+                <p class="menu">
+                  <strong>(down-left</strong> |
+                  <a href="#" data-x="1" data-y="1">(down-right)</a> |
+                  <a href="#" data-x="1" data-y="0">(up-right)</a> |
+                  <a href="#" data-x="0" data-y="0">(up-left)</a>
+                </p>
+              </div>
+
+
+              <div class="page">
+          
+                <div id="item_12" class="item" data-framework="growing_in_thus _Way">
+                 <img class= "front-face" src="img/growing_in_thus _Way.jpg" alt= "growing_in_thus _Way">
+                 <img class= "back-face" src="img/logoname.jpg" alt= "logoname">
+                </div>
+
+                 <div id="item_13" class="item" data-framework="lamentation_of _water">
+                 <img class= "front-face" src="img/lamentation_of _water.jpg" alt= "lamentation_of _water">
+                 <img class= "back-face" src="img/logoname.jpg" alt= "logoname">
+                </div>
+
+                <div id="item_14" class="item" data-framework="thirst_of_desert">
+                 <img class= "front-face" src="img/thirst_of_desert.jpg" alt= "thirst_of_desert">
+                 <img class= "back-face" src="img/logoname.jpg" alt= "logoname">
+                </div>
+
+                <p class="menu">
+                  <a href="#" data-x="0" data-y="1">(down-left</a> |
+                  <strong>(down-right)</strong> |
+                  <a href="#" data-x="1" data-y="0">(up-right)</a> |
+                  <a href="#" data-x="0" data-y="0">(up-left)</a>
+                </p>
+
+                
+              </div>
+
+
+            </div>
+          </div>
+      </div>
+       
+      <script src="index.js"></script>
+
+</body>
+</html>
+
+          
